@@ -52,42 +52,33 @@ flavors.pop()
 console.log(flavors);
 
 /*slice() returns a section in the array as a new array
-7. 
+7. A wealthy investor wants to diversify her portfolio with cryptocurrency. She has given you $1MM to invest in three of cryptocurrencies in the list below.
+Choose any three and assign them to a new variable.
 */
+const crypto = ['BTC', 'ETH', 'ADA', 'SOL', 'DOT', 'DOGE', 'SHIB', 'CRO', 'NEAR', 'UNI'];
+const invest = crypto.slice(0, 3);
+console.log(invest);
 
-/*=============================================================*/
+/*concat() merges two or more arrays
+8. Coach Popovich needs your help in fielding a basketball team for the next summer Olympics. 
+Combine players from the west and east into one list named the 'dream team'.
+*/
+const west = ['Lebron', 'Curry', 'Kawhi', 'George', 'Morant'];
+const east = ['KD', 'Tatum', 'Young', 'Herro', 'DeRozan'];
 
-/*Accessor Methods do not modify the array and returns some representation of the array.*/
+const dreamTeam = west.concat(east);
+console.log(dreamTeam);
 
-/*The array.concat() returns a new array comprised of this array joined with other array(s) and/or values(s).*/
+/*join() joins all the elements of an array into a string
+9. Convert Dollar Shave's Club slogan into a string.
+*/
+const dollarShaveClub = ['shave', 'time', 'shave', 'money'];
+let slogan = dollarShaveClub.join(' ');
+console.log(slogan);
 
-/*7. Increase the peace! Your job is quash the bitter rivalry and unite both the westSide and eastSide rappers into a new array called `oneLove`. Console.log this new array.*/
-
-var westSide = ["Dre", "2Pac", "Snoop"];
-var eastSide = ["Biggie", "Diddy", "Craig Mack"];
-
-var oneLove = westSide.concat(eastSide);
-console.log(oneLove);
-
-/*The array.join() joins all the elements of an array into a string.*/
-
-/*8. Help Nike sell more overpriced sneakers by changing their slogan from an array into a string. Convert the shoe array and assign it to a variable named `shoeString`. Console.log this new variable.*/
-
-var shoe = ["just", "do", "it"];
-
-var shoeString = shoe.join();
-console.log(shoeString);
-
-/*The array.slice() extracts a section of an array and returns a new array.
-array.slice(index start, index end)*/
-
-/*9. Some drama between you and the Kardashian's went down during last Saturday's potluck party. You are no longer on speaking terms and need to unfriend the following from your facebook:
-"Yeezy", "Kimmy K" and "Lamar Odom". Unfriend these ungrateful people and assign them to a new variable named `unFriend`. Console.log this new variable.*/
-
-var fbFriends = ["Khalid", "Yeezy", "Kimmy K", "Lamar Odom", "Lebron", "Warren Buffet"];
-
-var unFriend = fbFriends.slice(1, 4);
-console.log(unFriend);
-
-
-
+/*toString() converts elements in an array into a string, separately by commas
+10. Convert Yoda's inspiring quote into a string, with commas after each word. 
+*/
+const mindTricks = ['the', 'greatest', 'teacher', 'failure', 'is'];
+let lesson = mindTricks.toString();
+console.log(lesson);
