@@ -42,3 +42,30 @@ Remove the last failed flavor from the list.
 */
 const flavors = ['blueberry', 'chocolate fudge', 'strawberry', 'fruit loops', 'red velvet', 'eggo frosted maple', 'red radish'];
 
+
+/*slice() returns a section in the array as a new array
+7. A wealthy investor wants to diversify her portfolio with cryptocurrency. She has given you $1MM to invest in three of cryptocurrencies in the list below.
+Choose any three and assign them to a new variable.
+*/
+const crypto = ['BTC', 'ETH', 'ADA', 'SOL', 'DOT', 'DOGE', 'SHIB', 'CRO', 'NEAR', 'UNI'];
+
+
+/*concat() merges two or more arrays
+8. Coach Popovich needs your help in fielding a basketball team for the next summer Olympics. 
+Combine players from the west and east into one list named the 'dream team'.
+*/
+const west = ['Lebron', 'Curry', 'Kawhi', 'George', 'Morant'];
+const east = ['KD', 'Tatum', 'Young', 'Herro', 'DeRozan'];
+
+
+/*join() joins all the elements of an array into a string
+9. Convert Dollar Shave's Club slogan into a string.
+*/
+const dollarShaveClub = ['shave', 'time', 'shave', 'money'];
+
+
+/*toString() converts elements in an array into a string, separately by commas
+10. Convert Yoda's inspiring quote into a string, with commas after each word. 
+*/
+const mindTricks = ['the', 'greatest', 'teacher', 'failure', 'is'];
+
