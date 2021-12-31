@@ -51,7 +51,9 @@ const flavors = ['blueberry', 'chocolate fudge', 'strawberry', 'fruit loops', 'r
 flavors.pop()
 console.log(flavors);
 
-
+/*slice() returns a section in the array as a new array
+7. 
+*/
 
 /*=============================================================*/
 
