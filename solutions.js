@@ -44,7 +44,7 @@ heisman.push('Young');
 console.log(heisman);
 
 /*pop() removes the last element from an array
-6. Kellogg's Pop-Tarts have been fueling our nations youth for years. While most of the flavors have been fan favorites, some unfortunately didn't make the cut.
+6. Kellogg's Pop-Tarts have been fueling our nation's youth for years. While most of the flavors have been fan favorites, some unfortunately didn't make the cut.
 Remove the last failed flavor from the list.
 */
 const flavors = ['blueberry', 'chocolate fudge', 'strawberry', 'fruit loops', 'red velvet', 'eggo frosted maple', 'red radish'];
